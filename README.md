@@ -38,12 +38,12 @@ This repository contains tests for UI, API, and performance using Playwright and
 4. Install K6:
    Follow the instructions on the K6 installation page to install K6 on your system.
 
-  ### Running Tests
-   ## Playwright Tests
+  ## Running Tests
+   ### Playwright Tests
    To run Playwright tests, use the following command:
      npx playwright test src/test/functional/searchProduct.spec.ts
 
-## K6 Performance Tests
+### K6 Performance Tests
 To run K6 performance tests, use the following command:
      k6 run src/test/performance/postapi.spec.js
 
